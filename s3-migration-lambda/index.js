@@ -8,7 +8,7 @@ exports.handler = (event, context, callback) => {
     event.Records.forEach(function(record) {
       if (record.eventName === "REMOVE") {
           var params = {
-            Key: record.dynamodb.OldImage.Key,
+            Key: record.dynamodb.Keys,
             TableName: newTableName
           };
 
