@@ -21,4 +21,4 @@ A tool to help migrate tables in DynamoDB
 
 ## More information
 
-https://www.abhayachauhan.com/2017/10/dynamodb-changing-table-schema/
+https://www.abhayachauhan.com/2018/01/dynamodb-changing-table-schema/
